@@ -273,7 +273,7 @@
    "id": "pk6d5e0"
   }
  ],
- "current": "mqn76xl",
+ "current": "mdend15",
  "matches": [
   {
    "id": "m1",
@@ -457,6 +457,48 @@
     "À la 3e passe, on accélère à chaque fois",
     "Driver avec les jambes, en attaque et en défense"
    ]
+  },
+  {
+   "id": "mdend15",
+   "opp": "Dendermonde",
+   "comp": "championnat",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "timeEsp": "13:00",
+   "venue": "Dendermonde",
+   "home": false,
+   "score": "",
+   "theme": "",
+   "keys": [],
+   "lineups": {
+    "e1": {
+     "compo": {},
+     "roles": []
+    },
+    "esp": {
+     "compo": {},
+     "roles": []
+    }
+   },
+   "lsel": {
+    "e1": [
+     "lb7j5ws",
+     "lrdb0h9",
+     "lrwnwh0",
+     "l338oz1",
+     "lgzbmoe",
+     "livhuyl",
+     "lxfwafo"
+    ],
+    "esp": [
+     "ls0jq5n",
+     "ldi6vkr",
+     "lvqr9ps",
+     "lh3mygd",
+     "lgzbmoe",
+     "lxfwafo"
+    ]
+   }
   }
  ],
  "todo": [
