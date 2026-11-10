@@ -472,11 +472,85 @@
    "keys": [],
    "lineups": {
     "e1": {
-     "compo": {},
+     "compo": {
+      "9": {
+       "p": "q1",
+       "i": "Tempo\nFait jouer l'équipe\nPropre techniquement "
+      },
+      "10": {
+       "p": "q5",
+       "i": "Attrape tôt, droit\nImpact sur la défense \nScan"
+      },
+      "11": {
+       "p": "q8",
+       "i": "Va chercher du taf\nAccélération dans les portes"
+      },
+      "12": {
+       "p": "q7",
+       "i": "Trie ballons \nDominant plaquages \n\n"
+      },
+      "13": {
+       "p": "q17",
+       "i": ""
+      },
+      "14": {
+       "p": "q10",
+       "i": "Propose toi un max\nPrise de balle hanches droites\nFais toi confiance"
+      },
+      "15": {
+       "p": "p132f5d",
+       "i": "Communication+++\nArrive tranchant \nVite dans tes décisions "
+      },
+      "22": {
+       "p": "q3",
+       "i": "Remets du tempo\n"
+      },
+      "23": {
+       "p": "p8twvzp",
+       "i": "Apporte ta physicalité "
+      }
+     },
      "roles": []
     },
     "esp": {
-     "compo": {},
+     "compo": {
+      "9": {
+       "p": "q15",
+       "i": "Colle au ballon\nMets du rythme\nNe te précipite pas sur les boxkicks"
+      },
+      "10": {
+       "p": "q23",
+       "i": "Menace la défense \nPas que latéral, projettes toi vers l'avant "
+      },
+      "11": {
+       "p": "q21",
+       "i": "Va chercher du taf\nScan et communique "
+      },
+      "12": {
+       "p": "q27",
+       "i": "Focus sur catch \nPhysique ++"
+      },
+      "14": {
+       "p": "pk6d5e0",
+       "i": ""
+      },
+      "15": {
+       "p": "q20",
+       "i": ""
+      },
+      "21": {
+       "p": "q16",
+       "i": ""
+      },
+      "22": {
+       "p": "q26",
+       "i": ""
+      },
+      "23": {
+       "p": "q13",
+       "i": ""
+      }
+     },
      "roles": []
     }
    },
