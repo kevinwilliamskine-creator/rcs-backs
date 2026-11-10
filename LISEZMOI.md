@@ -27,3 +27,14 @@ Nouvelle vidéo : copie le MP4 (moins de 20 Mo) dans `media/`, puis dans le clip
 
 Mise à jour : dans le dépôt GitHub, « Add file › Upload files » › glisse le nouveau `contenu.json` dans le dossier `data` › Commit.
 Si tu changes `index.html`, ouvre `sw.js` et passe `rcs-backs-v1` à `rcs-backs-v2` : les téléphones verront « Nouvelle version disponible ».
+
+## Nouveautés (v2)
+- Design plus moderne (cartes douces, bandeau du match, barre d'onglets en pastille).
+- Match de la semaine : boutons **Itinéraire** (Google Maps) et **Agenda** (ajoute le match à ton calendrier).
+- **Message du coach** en haut de la page : mode coach › « Message & club » › champ « Message du coach ».
+- Mode coach : carte **Actions rapides** (modifier le match, nouveau match, message, tâche, prévenir le groupe).
+
+## Gérer la page au quotidien
+1. Le plus rapide : dicte tes changements à Claude, il modifie et publie.
+2. Sinon, mode coach (`?coach` en local) › modifie › « Enregistrer contenu.json » › dépose-le dans `data/` sur GitHub (Add file › Upload files › Commit).
+3. Si `index.html` change, `VERSION` dans `sw.js` doit augmenter (fait automatiquement par Claude).
