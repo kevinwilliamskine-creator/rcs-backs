@@ -271,6 +271,24 @@
    "status": "ok",
    "cons": [],
    "id": "pk6d5e0"
+  },
+  {
+   "id": "pthb7k2",
+   "n": null,
+   "name": "Thibaut",
+   "pos": [],
+   "team": "",
+   "status": "ok",
+   "cons": []
+  },
+  {
+   "id": "palx9h4",
+   "n": null,
+   "name": "Alex H",
+   "pos": [],
+   "team": "",
+   "status": "ok",
+   "cons": []
   }
  ],
  "current": "mdend15",
@@ -474,23 +492,23 @@
     "e1": {
      "compo": {
       "9": {
-       "p": "q1",
-       "i": "Tempo\nFait jouer l'équipe\nPropre techniquement "
+       "p": "q3",
+       "i": "Remets du tempo\n"
       },
       "10": {
        "p": "q5",
        "i": "Attrape tôt, droit\nImpact sur la défense \nScan"
       },
       "11": {
-       "p": "q8",
-       "i": "Va chercher du taf\nAccélération dans les portes"
+       "p": "q17",
+       "i": ""
       },
       "12": {
-       "p": "q7",
-       "i": "Trie ballons \nDominant plaquages \n\n"
+       "p": "p132f5d",
+       "i": "Communication+++\nArrive tranchant \nVite dans tes décisions "
       },
       "13": {
-       "p": "q17",
+       "p": "pthb7k2",
        "i": ""
       },
       "14": {
@@ -498,16 +516,16 @@
        "i": "Propose toi un max\nPrise de balle hanches droites\nFais toi confiance"
       },
       "15": {
-       "p": "p132f5d",
-       "i": "Communication+++\nArrive tranchant \nVite dans tes décisions "
+       "p": "q8",
+       "i": "Va chercher du taf\nAccélération dans les portes"
       },
       "22": {
-       "p": "q3",
-       "i": "Remets du tempo\n"
+       "p": "q1",
+       "i": "Tempo\nFait jouer l'équipe\nPropre techniquement "
       },
       "23": {
-       "p": "p8twvzp",
-       "i": "Apporte ta physicalité "
+       "p": "q7",
+       "i": "Trie ballons \nDominant plaquages \n\n"
       }
      },
      "roles": []
@@ -523,27 +541,27 @@
        "i": "Menace la défense \nPas que latéral, projettes toi vers l'avant "
       },
       "11": {
-       "p": "q21",
-       "i": "Va chercher du taf\nScan et communique "
+       "p": "pk6d5e0",
+       "i": ""
       },
       "12": {
        "p": "q27",
        "i": "Focus sur catch \nPhysique ++"
       },
+      "13": {
+       "p": "palx9h4",
+       "i": ""
+      },
       "14": {
-       "p": "pk6d5e0",
+       "p": "q26",
        "i": ""
       },
       "15": {
        "p": "q20",
        "i": ""
       },
-      "21": {
-       "p": "q16",
-       "i": ""
-      },
       "22": {
-       "p": "q26",
+       "p": "q22",
        "i": ""
       },
       "23": {
