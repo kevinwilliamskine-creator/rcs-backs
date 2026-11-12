@@ -580,17 +580,18 @@
     "e1": [
      "lflx1015",
      "l568cc8",
+     "l42g910",
      "l33clas",
      "lb7j5ws",
      "lrdb0h9",
      "lmgpock"
     ],
     "esp": [
-     "lflx1015",
-     "l568cc8",
-     "l33clas",
-     "lb7j5ws",
-     "lrdb0h9"
+     "ls0jq5n",
+     "ldi6vkr",
+     "lvqr9ps",
+     "lgzbmoe",
+     "lxfwafo"
     ]
    }
   }
@@ -609,86 +610,7 @@
    "id": "txzb33z"
   }
  ],
- "clips": [
-  {
-   "id": "cuxnu6l",
-   "title": "Défense lancement touche",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/d13a8592a153db5a2e8bf332371be71e.mp4",
-   "sub": ""
-  },
-  {
-   "id": "cw5bfmv",
-   "title": "Transition jeu au pied",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "Faire l'effort de vite se replier, pour donner des solutions au porteur. Important de remonter les ballons et ps directement rendre ballon au pied",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/6533eaa038271153e0a0ebd462b3626d.mp4",
-   "sub": ""
-  },
-  {
-   "id": "ch1wh2j",
-   "title": "Transition jeu au pied",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "Faire l'effort de vite se replier, pour donner des solutions au porteur. Important de remonter les ballons et ps directement rendre ballon au pied",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/78c007fce09fde3b66b70ad925373af1.mp4",
-   "sub": ""
-  },
-  {
-   "id": "clzq0w0",
-   "title": "Défense déconnectée",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/e033f357c15d276aad1adf8ef7c30ce6.mp4",
-   "sub": ""
-  },
-  {
-   "id": "cx1s9tk",
-   "title": "D lancement mêlée",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/219fff105a747b74738a62b678d6bb67.mp4",
-   "sub": ""
-  },
-  {
-   "id": "cwvxhmz",
-   "title": "D lancement mêlée",
-   "url": "",
-   "at": "",
-   "tag": "Défense",
-   "look": "",
-   "players": [],
-   "d": "2026-10-29",
-   "pin": true,
-   "file": "media/b7b50939339fd8e57323893378a386a4.mp4",
-   "sub": ""
-  }
- ],
+ "clips": [],
  "boards": [
   {
    "id": "b1xalwc",
@@ -11492,6 +11414,16 @@
    "steps": [],
    "board": "",
    "video": "media/melee-gauche-12-pocket.mp4"
+  },
+  {
+   "id": "l42g910",
+   "name": "4-2 (9-10)",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/4-2-9-10.mp4"
   }
  ],
  "skillCats": [
