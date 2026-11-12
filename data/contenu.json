@@ -486,46 +486,50 @@
    "venue": "Dendermonde",
    "home": false,
    "score": "",
-   "theme": "",
-   "keys": [],
+   "theme": "Intensité + scan, en attaque comme en défense",
+   "keys": [
+    "Attaque : on fait l'effort de se déplacer pour amener le surnombre",
+    "Courses tranchantes : on redresse, pas de latéral, petit appui avant le contact",
+    "On drive au contact, en attaque et en défense"
+   ],
    "lineups": {
     "e1": {
      "compo": {
       "9": {
        "p": "q3",
-       "i": "Remets du tempo\n"
+       "i": "Général : tu fais jouer l'équipe\nScan avant chaque ballon\nIntensité en attaque et en défense"
       },
       "10": {
        "p": "q5",
-       "i": "Attrape tôt, droit\nImpact sur la défense \nScan"
+       "i": "Général : tu fais jouer l'équipe\nScan avant chaque ballon\nR3 avec Quentin en défense"
       },
       "11": {
        "p": "q17",
-       "i": ""
+       "i": "Soldat : engage-toi à fond\nCourses tranchantes : redresse, pas de latéral\nPetit appui avant le contact, puis drive"
       },
       "12": {
        "p": "p132f5d",
-       "i": "Communication+++\nArrive tranchant \nVite dans tes décisions "
+       "i": "Aide Matthéo et Louis à faire jouer\nTravaille en flex\nEngage-toi aussi dans la ligne"
       },
       "13": {
        "p": "pthb7k2",
-       "i": ""
+       "i": "Soldat : engage-toi à fond\nCourses tranchantes : redresse, pas de latéral\nPetit appui avant le contact, puis drive"
       },
       "14": {
        "p": "q10",
-       "i": "Propose toi un max\nPrise de balle hanches droites\nFais toi confiance"
+       "i": "Soldat : engage-toi à fond\nCourses tranchantes : redresse, pas de latéral\nPetit appui avant le contact, puis drive"
       },
       "15": {
        "p": "q8",
-       "i": "Va chercher du taf\nAccélération dans les portes"
+       "i": "Engage-toi dans la ligne\nCommunique beaucoup pour le placement derrière\nR3 avec Matthéo en défense"
       },
       "22": {
        "p": "q1",
-       "i": "Tempo\nFait jouer l'équipe\nPropre techniquement "
+       "i": "Soldat : engage-toi à fond\nCourses tranchantes : redresse, pas de latéral\nPetit appui avant le contact, puis drive"
       },
       "23": {
        "p": "q7",
-       "i": "Trie ballons \nDominant plaquages \n\n"
+       "i": "Soldat : engage-toi à fond\nCourses tranchantes : redresse, pas de latéral\nPetit appui avant le contact, puis drive"
       }
      },
      "roles": []
