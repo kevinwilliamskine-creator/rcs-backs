@@ -574,13 +574,11 @@
    },
    "lsel": {
     "e1": [
+     "lflx1015",
+     "l568cc8",
+     "l33clas",
      "lb7j5ws",
-     "lrdb0h9",
-     "lrwnwh0",
-     "l338oz1",
-     "lgzbmoe",
-     "livhuyl",
-     "lxfwafo"
+     "lrdb0h9"
     ],
     "esp": [
      "ls0jq5n",
@@ -11460,6 +11458,26 @@
    "steps": [],
    "board": "",
    "video": "media/fb36f563b371c943378e552fe401a67b.mp4"
+  },
+  {
+   "id": "lflx1015",
+   "name": "Flex : 10 et 15 à l'axe, jouer le petit une fois",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/56d3bf84ccfaeddd7c5d9dec867aaa34.mp4"
+  },
+  {
+   "id": "l33clas",
+   "name": "3-3 classique",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": ""
   }
  ],
  "skillCats": [
