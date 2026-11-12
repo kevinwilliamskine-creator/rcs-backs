@@ -582,7 +582,8 @@
      "l568cc8",
      "l33clas",
      "lb7j5ws",
-     "lrdb0h9"
+     "lrdb0h9",
+     "lmgpock"
     ],
     "esp": [
      "lflx1015",
@@ -11481,6 +11482,16 @@
    "steps": [],
    "board": "",
    "video": ""
+  },
+  {
+   "id": "lmgpock",
+   "name": "Mêlée gauche : 12 dans la pocket du 13",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/melee-gauche-12-pocket.mp4"
   }
  ],
  "skillCats": [
