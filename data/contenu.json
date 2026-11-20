@@ -720,7 +720,8 @@
      "l42g910",
      "lflxlion",
      "lxfwafo",
-     "lnzvp1t"
+     "lnzvp1t",
+     "lrouge1"
     ],
     "esp": [
      "ls0jq5n",
@@ -11569,6 +11570,16 @@
    "steps": [],
    "board": "",
    "video": ""
+  },
+  {
+   "id": "lrouge1",
+   "name": "Rouge (mêlée gauche)",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/rouge-melee-gauche.mp4"
   }
  ],
  "skillCats": [
