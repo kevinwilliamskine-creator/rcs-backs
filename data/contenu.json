@@ -714,7 +714,14 @@
     }
    },
    "lsel": {
-    "e1": [],
+    "e1": [
+     "lb7j5ws",
+     "l568cc8",
+     "l42g910",
+     "lflxlion",
+     "lxfwafo",
+     "lnzvp1t"
+    ],
     "esp": []
    }
   }
@@ -11547,6 +11554,16 @@
    "steps": [],
    "board": "",
    "video": "media/4-2-9-10.mp4"
+  },
+  {
+   "id": "lflxlion",
+   "name": "Flex Lion",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": ""
   }
  ],
  "skillCats": [
