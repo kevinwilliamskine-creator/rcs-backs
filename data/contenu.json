@@ -746,7 +746,129 @@
    "id": "txzb33z"
   }
  ],
- "clips": [],
+ "clips": [
+  {
+   "id": "c2611a",
+   "title": "Se redresser avant de passer",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Catch/pass",
+   "look": "Curtis : se redresser AVANT de passer pour fixer son défenseur. Balle latérale et rythme monotone = aucun impact sur la défense.",
+   "players": [
+    "q1"
+   ],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/curtis-redresser-avant-la-passe.mp4"
+  },
+  {
+   "id": "c2611b",
+   "title": "Passes sautées : un choix, pas un réflexe",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Catch/pass",
+   "look": "On fait trop de passes sautées systématiques. En zone de marque : oui, possible. Ailleurs : on joue avec le joueur suivant.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/passes-sautees-un-choix.mp4"
+  },
+  {
+   "id": "c2611c",
+   "title": "On s'assoit trop à la passe",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Catch/pass",
+   "look": "3 actions : on s'assoit en faisant la passe, le défenseur reste vivant. On passe en avançant, sans s'asseoir.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/on-s-assoit-trop-a-la-passe.mp4"
+  },
+  {
+   "id": "c2611d",
+   "title": "Passes trop latérales : menacer avant de passer",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Catch/pass",
+   "look": "3 actions : je reçois et je regarde directement en latéral, on joue en 2D. Je menace et je fixe AVANT de passer pour créer l'incertitude.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/passes-trop-laterales.mp4"
+  },
+  {
+   "id": "c2611e",
+   "title": "Se relever et regarder en face",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "",
+   "look": "Attitude : quand on se relève, on regarde ce qu'il y a en face, PUIS on décide. Pas de départ automatique : il y a parfois un coup à jouer.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/se-relever-regarder-en-face.mp4"
+  },
+  {
+   "id": "c2611f",
+   "title": "Autoroute : mettre de la vitesse",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Ligne de course",
+   "look": "Ballon dans l'autoroute : soit on arrive par une passe pour mettre de la vitesse, soit celui qui rentre dedans va chercher une porte à pleine vitesse.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/autoroute-vitesse.mp4"
+  },
+  {
+   "id": "c2611g",
+   "title": "Après la passe : aller dans l'espace",
+   "url": "",
+   "at": "",
+   "tag": "Attaque",
+   "sub": "Ligne de course",
+   "look": "Bonne action, Quentin. Après la passe, tu suis le ballon : passe, va à gauche dans l'espace, puis bouge si besoin.",
+   "players": [
+    "q8"
+   ],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/quentin-apres-la-passe-espace.mp4"
+  },
+  {
+   "id": "c2611h",
+   "title": "Turnover 1",
+   "url": "",
+   "at": "",
+   "tag": "Transition déf → att",
+   "sub": "",
+   "look": "",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/turnover-1.mp4"
+  },
+  {
+   "id": "c2611i",
+   "title": "Turnover 2",
+   "url": "",
+   "at": "",
+   "tag": "Transition déf → att",
+   "sub": "",
+   "look": "",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/turnover-2.mp4"
+  }
+ ],
  "boards": [
   {
    "id": "b1xalwc",
