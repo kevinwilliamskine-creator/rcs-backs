@@ -741,8 +741,14 @@
    "venue": "chemin tour lette",
    "home": true,
    "score": "",
-   "theme": "",
-   "keys": [],
+   "theme": "Pas de ballons gratuits, de la vitesse sur les extérieurs",
+   "keys": [
+    "Défense : bien connectés, pas d'espace entre nous, attentifs",
+    "Jeu au pied : pas de ballons gratuits. On sort le ballon, ou pression haute avec une chasse organisée, ou espace libre après plusieurs temps de jeu (avec chasse)",
+    "Attaque : vitesse sur les extérieurs. Le joueur de 2e ligne arrive, je redresse et je le fais jouer, ou je m'engage et j'attaque les portes",
+    "Scan : ruck dans l'autoroute, je me relève direct et je regarde si le coup est bon",
+    "Courses tranchantes : le joueur de 2e ligne apporte le plus. Ils glissent beaucoup : on rentre des courses"
+   ],
    "lineups": {
     "e1": {
      "compo": {
