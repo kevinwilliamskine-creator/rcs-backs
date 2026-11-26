@@ -754,13 +754,11 @@
    "at": "",
    "tag": "Attaque",
    "sub": "Catch/pass",
-   "look": "Curtis : se redresser AVANT de passer pour fixer son défenseur. Balle latérale et rythme monotone = aucun impact sur la défense.",
-   "players": [
-    "q1"
-   ],
+   "look": "Se redresser AVANT de passer pour fixer son défenseur. Balle latérale et rythme monotone = aucun impact sur la défense.",
+   "players": [],
    "d": "2026-11-26",
    "pin": true,
-   "file": "media/curtis-redresser-avant-la-passe.mp4"
+   "file": "media/se-redresser-avant-la-passe.mp4"
   },
   {
    "id": "c2611b",
@@ -834,13 +832,11 @@
    "at": "",
    "tag": "Attaque",
    "sub": "Ligne de course",
-   "look": "Bonne action, Quentin. Après la passe, tu suis le ballon : passe, va à gauche dans l'espace, puis bouge si besoin.",
-   "players": [
-    "q8"
-   ],
+   "look": "Bonne action, mais après la passe on suit le ballon. Passe, va à gauche dans l'espace, puis bouge si besoin.",
+   "players": [],
    "d": "2026-11-26",
    "pin": true,
-   "file": "media/quentin-apres-la-passe-espace.mp4"
+   "file": "media/apres-la-passe-espace.mp4"
   },
   {
    "id": "c2611h",
