@@ -826,26 +826,13 @@
    "file": "media/autoroute-vitesse.mp4"
   },
   {
-   "id": "c2611g",
-   "title": "Après la passe : aller dans l'espace",
-   "url": "",
-   "at": "",
-   "tag": "Attaque",
-   "sub": "Ligne de course",
-   "look": "Bonne action, mais après la passe on suit le ballon. Passe, va à gauche dans l'espace, puis bouge si besoin.",
-   "players": [],
-   "d": "2026-11-26",
-   "pin": true,
-   "file": "media/apres-la-passe-espace.mp4"
-  },
-  {
    "id": "c2611h",
-   "title": "Turnover 1",
+   "title": "Turnover 1/3 : à vous de commenter",
    "url": "",
    "at": "",
    "tag": "Transition déf → att",
    "sub": "",
-   "look": "",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
    "players": [],
    "d": "2026-11-26",
    "pin": true,
@@ -853,16 +840,29 @@
   },
   {
    "id": "c2611i",
-   "title": "Turnover 2",
+   "title": "Turnover 2/3 : à vous de commenter",
    "url": "",
    "at": "",
    "tag": "Transition déf → att",
    "sub": "",
-   "look": "",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
    "players": [],
    "d": "2026-11-26",
    "pin": true,
    "file": "media/turnover-2.mp4"
+  },
+  {
+   "id": "c2611j",
+   "title": "Turnover 3/3 : à vous de commenter",
+   "url": "",
+   "at": "",
+   "tag": "Transition déf → att",
+   "sub": "",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
+   "players": [],
+   "d": "2026-11-26",
+   "pin": true,
+   "file": "media/turnover-3.mp4"
   }
  ],
  "boards": [
