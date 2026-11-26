@@ -309,7 +309,7 @@
    "id": "pjulesv"
   }
  ],
- "current": "mbuc22",
+ "current": "mboit29",
  "matches": [
   {
    "id": "m1",
@@ -730,6 +730,33 @@
      "lnzvp1t"
     ]
    }
+  },
+  {
+   "id": "mboit29",
+   "opp": "Boitsfort",
+   "comp": "championnat",
+   "date": "2026-11-29",
+   "time": "15:00",
+   "timeEsp": "13:00",
+   "venue": "chemin tour lette",
+   "home": true,
+   "score": "",
+   "theme": "",
+   "keys": [],
+   "lineups": {
+    "e1": {
+     "compo": {},
+     "roles": []
+    },
+    "esp": {
+     "compo": {},
+     "roles": []
+    }
+   },
+   "lsel": {
+    "e1": [],
+    "esp": []
+   }
   }
  ],
  "todo": [
@@ -832,7 +859,7 @@
    "at": "",
    "tag": "Transition déf → att",
    "sub": "",
-   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires sous la vidéo.",
    "players": [],
    "d": "2026-11-26",
    "pin": true,
@@ -845,7 +872,7 @@
    "at": "",
    "tag": "Transition déf → att",
    "sub": "",
-   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires sous la vidéo.",
    "players": [],
    "d": "2026-11-26",
    "pin": true,
@@ -858,7 +885,7 @@
    "at": "",
    "tag": "Transition déf → att",
    "sub": "",
-   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires.",
+   "look": "À vous : qu'est-ce qu'on peut faire mieux sur ce turnover ? Réponds dans les commentaires sous la vidéo.",
    "players": [],
    "d": "2026-11-26",
    "pin": true,

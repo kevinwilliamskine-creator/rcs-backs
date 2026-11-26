@@ -3227,9 +3227,34 @@ try { document.fonts?.ready?.then(() => { aDraw(); drawPreviews(); }); } catch {
 $('#sheet').addEventListener('click', e => { if (e.target === e.currentTarget) closeSheet(); });
 render();
 loadContenu();
+/* Commentaires hors claude.ai (site Vercel) : API /api/comments */
+async function cmHttpLoad() {
+  try {
+    const r = await fetch('api/comments', { cache: 'no-store' }); if (!r.ok) return;
+    const j = await r.json(); const by = {};
+    for (const x of j.comments || []) if (x && x.clip) (by[x.clip] = by[x.clip] || []).push(x);
+    CM.by = by; cmRefresh();
+  } catch {}
+}
+function cmHttpInit() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  const call = async (method, body) => {
+    const r = await fetch('api/comments', { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    if (!r.ok) throw new Error('http ' + r.status);
+    cmHttpLoad();
+  };
+  CM.db = {
+    collection: () => ({ add: x => call('POST', x) }),
+    doc: path => ({ delete: () => call('DELETE', { id: String(path).split('/').pop(), pid: me || '', coach: !!coach }) })
+  };
+  CM.can = true;
+  render(); cmHttpLoad();
+  setInterval(() => { if (document.visibilityState === 'visible') cmHttpLoad(); }, 30000);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') cmHttpLoad(); });
+}
 (async () => {
   try {
-    if (!window.claude || typeof window.claude.use !== 'function') return;
+    if (!window.claude || typeof window.claude.use !== 'function') { cmHttpInit(); return; }
     const db = await window.claude.use('db'); if (!db) return;
     let w = null;
     try { const u = await window.claude.use('user'); if (u && typeof u.can === 'function') w = await u.can('data.write'); } catch {}
