@@ -1,15 +1,7 @@
 // RCS Backs — commentaires des clips (stockage Vercel Blob, un fichier par commentaire).
 const { put, list, del } = require('@vercel/blob');
 
-const crypto = require('crypto');
 const ID = /^[a-zA-Z0-9_-]{1,40}$/;
-function isCoach(req) {
-  const code = process.env.COACH_CODE; if (!code) return false;
-  const m = String(req.headers.cookie || '').match(/(?:^|;\s*)rcs_auth=([^;]+)/);
-  if (!m) return false;
-  const want = crypto.createHash('sha256').update(`coach:${code}:${process.env.AUTH_SALT || ''}`).digest('hex');
-  return decodeURIComponent(m[1]) === want;
-}
 const clean = (s, n) => String(s || '').replace(/[\u0000-\u001f\u007f]/g, ' ').trim().slice(0, n);
 
 async function readBody(req) {
@@ -46,7 +38,7 @@ module.exports = async (req, res) => {
       if (!/^[a-zA-Z0-9_-]+--\d+-[a-z0-9]+$/.test(id)) { res.status(400).json({ error: 'invalid' }); return; }
       const r = await list({ prefix: `cm/${id}.json`, limit: 1 });
       const blob = r.blobs[0]; if (!blob) { res.status(404).json({ error: 'not_found' }); return; }
-      if (!isCoach(req)) {
+      {
         const x = await (await fetch(blob.url, { cache: 'no-store' })).json();
         if (!x.pid || x.pid !== clean(b.pid, 40)) { res.status(403).json({ error: 'forbidden' }); return; }
       }

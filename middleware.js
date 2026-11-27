@@ -1,4 +1,4 @@
-// RCS Backs — accès par code (joueurs) et code coach. Les codes sont dans les variables Vercel.
+// RCS Backs — accès par code d'équipe (variable Vercel TEAM_CODE).
 import { next } from '@vercel/functions';
 
 export const config = { matcher: '/(.*)' };
@@ -14,12 +14,10 @@ function cookie(req, name) {
   return m ? decodeURIComponent(m[1]) : '';
 }
 export async function roleOf(req) {
-  const team = process.env.TEAM_CODE, coach = process.env.COACH_CODE;
-  if (!team || !coach) return 'open';
+  const team = process.env.TEAM_CODE;
+  if (!team) return 'open';
   const c = cookie(req, 'rcs_auth');
-  if (!c) return '';
-  if (c === await sig('coach', coach)) return 'coach';
-  if (c === await sig('team', team)) return 'team';
+  if (c && c === await sig('team', team.toLowerCase())) return 'team';
   return '';
 }
 
@@ -31,22 +29,22 @@ input{width:100%;box-sizing:border-box;font-size:20px;padding:12px;border:2px so
 button{margin-top:12px;width:100%;font-size:18px;padding:12px;border:0;border-radius:10px;background:#198754;color:#fff;font-weight:700}
 .e{color:#b02a37;margin-top:10px;font-size:14px}</style></head><body>
 <form method="post" action="/__auth"><h1>RCS Backs</h1><p>Entre le code de l'équipe</p>
-<input name="code" type="password" autocomplete="current-password" autofocus required>
+<input name="code" type="password" autocomplete="current-password" autocapitalize="none" autofocus required>
 <button type="submit">Entrer</button>${err ? '<div class="e">Code incorrect</div>' : ''}</form></body></html>`;
 
 export default async function middleware(req) {
   const url = new URL(req.url);
-  const team = process.env.TEAM_CODE, coach = process.env.COACH_CODE;
-  if (!team || !coach) return next();
+  const team = process.env.TEAM_CODE;
+  if (!team) return next();
 
   if (url.pathname === '/__auth' && req.method === 'POST') {
     let code = '';
     try { const f = await req.formData(); code = String(f.get('code') || '').trim(); } catch {}
-    let role = '';
-    if (code === coach) role = 'coach'; else if (code.toLowerCase() === team.toLowerCase()) role = 'team';
+    const norm = v => v.toLowerCase().replace(/[\s-]+/g, '');
+    const role = norm(code) === norm(team) ? 'team' : '';
     if (!role) return new Response(page(true), { status: 401, headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
-    const v = await sig(role, role === 'coach' ? coach : team);
-    const h = new Headers({ location: role === 'coach' ? '/?coach' : '/', 'cache-control': 'no-store' });
+    const v = await sig('team', team.toLowerCase());
+    const h = new Headers({ location: '/', 'cache-control': 'no-store' });
     h.append('set-cookie', `rcs_auth=${v}; Path=/; Max-Age=31536000; HttpOnly; Secure; SameSite=Lax`);
     h.append('set-cookie', `rcs_role=${role}; Path=/; Max-Age=31536000; Secure; SameSite=Lax`);
     return new Response(null, { status: 303, headers: h });
