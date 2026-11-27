@@ -859,7 +859,8 @@
      "lsext0",
      "lvqr9ps",
      "ldi6vkr",
-     "lh3mygd"
+     "lh3mygd",
+     "lflxmsq"
     ],
     "esp": [
      "lb7j5ws",
@@ -11879,6 +11880,16 @@
    "steps": [],
    "board": "",
    "video": "media/racing.mp4"
+  },
+  {
+   "id": "lflxmsq",
+   "name": "Flex masquée",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/flex-masquee.mp4"
   }
  ],
  "skillCats": [
