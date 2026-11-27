@@ -859,7 +859,6 @@
      "lsext0",
      "lvqr9ps",
      "ldi6vkr",
-     "lh3mygd",
      "lflxmsq"
     ],
     "esp": [
@@ -11883,7 +11882,7 @@
   },
   {
    "id": "lflxmsq",
-   "name": "Flex masquée",
+   "name": "Flex (départ plat)",
    "sit": "Mêlée",
    "zone": "",
    "by": "",
