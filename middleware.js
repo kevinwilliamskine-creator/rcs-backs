@@ -1,7 +1,7 @@
 // RCS Backs — accès par code (joueurs) et code coach. Les codes sont dans les variables Vercel.
 import { next } from '@vercel/functions';
 
-export const config = { matcher: '/:path*' };
+export const config = { matcher: '/(.*)' };
 
 const enc = new TextEncoder();
 async function sig(role, code) {
