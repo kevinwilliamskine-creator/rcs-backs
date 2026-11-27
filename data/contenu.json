@@ -848,7 +848,8 @@
      "lrouge1",
      "ls0jq5n",
      "l568cc8",
-     "l42g910"
+     "l42g910",
+     "lracing"
     ]
    }
   }
@@ -11849,6 +11850,16 @@
    "steps": [],
    "board": "",
    "video": "media/sexton-0.mp4"
+  },
+  {
+   "id": "lracing",
+   "name": "Racing",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/racing.mp4"
   }
  ],
  "skillCats": [
