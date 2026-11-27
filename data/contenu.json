@@ -11577,7 +11577,11 @@
   "photo": "img/equipe.jpg",
   "stade": "img/stade.jpg",
   "kit": "white",
-  "share": "https://rcs-backs.vercel.app/"
+  "share": "https://rcs-backs.vercel.app/",
+  "kitTeam": {
+   "e1": "white",
+   "esp": "green"
+  }
  },
  "library": [
   {
