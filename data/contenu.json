@@ -11824,6 +11824,16 @@
    "steps": [],
    "board": "",
    "video": "media/flex-crash-retour-au-pied.mp4"
+  },
+  {
+   "id": "lsext0",
+   "name": "Sexton 0",
+   "sit": "Mêlée",
+   "zone": "",
+   "by": "",
+   "steps": [],
+   "board": "",
+   "video": "media/sexton-0.mp4"
   }
  ],
  "skillCats": [
