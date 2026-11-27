@@ -27,7 +27,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/louis.jpg"
   },
   {
    "id": "q4",
@@ -45,7 +46,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/mattheo.jpg"
   },
   {
    "id": "q6",
@@ -63,7 +65,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/marius.jpg"
   },
   {
    "id": "q8",
@@ -72,7 +75,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/quentin.jpg"
   },
   {
    "id": "q9",
@@ -136,7 +140,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/elohim.jpg"
   },
   {
    "id": "q16",
@@ -181,7 +186,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/noa.jpg"
   },
   {
    "id": "q21",
@@ -199,7 +205,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/robin.jpg"
   },
   {
    "id": "q23",
@@ -253,7 +260,8 @@
    "team": "",
    "status": "ok",
    "cons": [],
-   "id": "p132f5d"
+   "id": "p132f5d",
+   "photo": "img/joueurs/liam.jpg"
   },
   {
    "name": "Gaspard",
@@ -280,7 +288,8 @@
    "pos": [],
    "team": "",
    "status": "ok",
-   "cons": []
+   "cons": [],
+   "photo": "img/joueurs/thibaut.jpg"
   },
   {
    "id": "palx9h4",
@@ -298,7 +307,8 @@
    "team": "",
    "status": "ok",
    "cons": [],
-   "id": "pvegis1"
+   "id": "pvegis1",
+   "photo": "img/joueurs/vegis.jpg"
   },
   {
    "name": "Jules VH",
